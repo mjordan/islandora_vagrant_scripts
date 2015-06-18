@@ -45,7 +45,7 @@ drush --yes features-revert islandora_test_site
 git clone https://github.com/mjordan/islandora_scg.git
 drush --yes en islandora_scg
 drush --yes cc drush
-drush iscgl --user=admin --quantity=10 --content_model=islandora:sp_basic_image --parent=islandora:sp_basic_image_collection --namespace=testing --SlateGray
+drush iscgl --user=admin --quantity=10 --content_model=islandora:sp_basic_image --parent=islandora:sp_basic_image_collection --namespace=testing --bgcolor=SlateGray
 drush iscgl --user=admin --quantity=2 --content_model=islandora:newspaperCModel --parent=islandora:newspaper_collection --namespace=testing --quantity_newspaper_issues=2
 
 # Set permissions.
